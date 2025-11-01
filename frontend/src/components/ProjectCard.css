@@ -1,0 +1,33 @@
+.project-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.project-card h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.project-card .framework {
+  margin: 8px 0;
+  color: #667eea;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.project-card .created-at {
+  margin: 8px 0 0 0;
+  color: #999;
+  font-size: 12px;
+}
